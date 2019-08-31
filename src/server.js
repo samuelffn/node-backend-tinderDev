@@ -7,6 +7,11 @@ server.use(routes); //use: Utilizado queremos colocar alguma configuração que 
 
 server.listen(3333); //Setar a porta que o servidor vai ouvir 
 
+
+
+
+
+//FIX ME: Trecho de código movido para o arquivo routes.js
 // GET, POST, PUT, DELETE
 /* server.get('/', (req, res) => {  //Rota principal da alicação(/). Recebe a requisição e retorna a resposta.
 
